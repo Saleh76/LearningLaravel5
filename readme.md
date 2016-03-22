@@ -4,7 +4,8 @@
 ```
 composer install
 ```
-- setup environment for database. Simple way: open config/database.php, set 'default' => 'sqlite', then run
+- edit .env.example to setup environment
+- setup environment for database. Example: open config/database.php, set 'default' => 'sqlite', then run
 ```
 touch storage/database.sqlite
 ```
@@ -28,6 +29,7 @@ Laravel is accessible, yet powerful, providing powerful tools needed for large, 
 ## Official Documentation
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Video tutorial [laravel 5 fundamental](https://laracasts.com/series/laravel-5-fundamentals).
 
 ## Contributing
 
